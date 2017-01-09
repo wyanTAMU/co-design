@@ -6,7 +6,7 @@ Collaborative design system integrating Autodesk Forge Viewer, Dynamo, and Grass
 
 The system allows users to collaboratively do parametric design using visual programming tools including Dynamo and Grasshopper to edit Web-based Building Information Models (BIM) or general 3D models loaded in Autodesk Forge Viewer in a Web browser, without plug-ins. The project is supported by Autodesk Forge Research Grant and Flux.io.
 
-The project samples and videos can be found in ["Project Report V5.docx"](./Project Report V5.docx). Online samples can be found at:
+The project samples and videos can be found in ["Project Report V5.pdf"](./Project Report V5.pdf). Online samples can be found at:
 https://co-design.herokuapp.com
 
 Here's an example:
