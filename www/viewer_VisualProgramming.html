@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Co-Design Historic Building</title>	
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
+        <!-- The Viewer CSS -->
+        <link rel="stylesheet" href="https://developer.api.autodesk.com/viewingservice/v1/viewers/style.min.css" type="text/css">
+        <link rel="stylesheet" href="https://developer.api.autodesk.com/viewingservice/v1/viewers/A360.css" type="text/css">
+
+        <!-- Developer CSS -->
+        <style>
+            #MyViewerDiv {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                background-color: #F0F8FF;
+                border: solid 1px #000000;
+            }
+        </style>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="js/getForgeToken.js"></script>
+        
+    </head>
+    <body>
+        <div id="MyViewerDiv"></div>		 
+        <!-- The Viewer JS -->
+        <script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/three.min.js"></script>
+        <script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/viewer3D.min.js"></script>
+        <script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/Autodesk360App.js"></script>
+        <script>
+            var viewerApp;
+            var options = {
+                env: 'AutodeskProduction',
+				getAccessToken: getToken,
+				refreshToken: getToken
+            };
+            var documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6d3lhbnRlc3QxMC9TYW1wbGUyLnJ2dA';
+			
+			var config3d = {
+          		extensions: ['FluxExtension']};
+			
+            Autodesk.Viewing.Initializer(options, function onInitialized(){
+                viewerApp = new Autodesk.A360ViewingApplication('MyViewerDiv');
+                viewerApp.registerViewer(viewerApp.k3D, Autodesk.Viewing.Private.GuiViewer3D, config3d);
+                viewerApp.loadDocumentWithItemAndObject(documentId);
+            });
+        </script>
+		<!-- Developer JS -->
+        <script src="js/extensions/FluxVP/FluxExtension.js"></script>
+		<!-- watch the changes in Flux for updating the model in Viewer -->
+		<script src="js/extensions/FluxVP/watch.js"></script>		
+		<!-- configuration variables including Flux App key -->
+		<script src="js/extensions/FluxVP/config.js"></script>
+		<!-- the Flux JS SDK and helpers -->
+		<script src="https://npmcdn.com/flux-sdk-browser@0.4/dist/flux-sdk-min.js"></script>
+		<script src="https://npmcdn.com/flux-sdk-helpers@0.1/dist/flux-sdk-helpers.min.js"></script>
+		<!-- helper functions for using the Flux SDK -->
+		<script src="js/extensions/FluxVP/helpers.js"></script>
+		<!-- main Flux application logic -->
+		<script src="js/extensions/FluxVP/Flux.js"></script>
+		<script type="text/javascript">	
+			initFlux();
+		</script>		
+    </body>
+</html>
