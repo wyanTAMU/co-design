@@ -13,7 +13,7 @@ Here's an example:
 
 ![Two Computers sample](./images/two computers_v3.jpg?raw=true "Two Computers")
 
-Two computers (representing two users collaborating on parametric modeling with visual programming tools). One computer controls the translation and scaling of the roof using Dynamo, and the other computer controls the rotation of the roof using Grasshopper. The models in the Viewers on the two computers are synchronized. 
+Two computers (representing two users collaborating on parametric modeling with visual programming tools). One computer controls the translation and scaling of the roof using Dynamo, and the other computer controls the rotation of the roof using Grasshopper. The models in Autodesk Viewer on the two computers are updated and synchronized, through Flux.
 
 The videos are also available here:
 
