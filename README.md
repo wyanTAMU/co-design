@@ -1,4 +1,7 @@
 # co-design
+
+## Description
+
 Collaborative design system integrating Autodesk Forge Viewer, Dynamo, Grasshopper, etc. through Flux
 
 The project is supported by Autodesk Forge Research Grant and Flux.io.
@@ -20,9 +23,14 @@ http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=564317
 4. A video demonstrating the running process of design optimization can be seen from the following link:
 http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=564452 
 
+## Usage
 
 To run the programs, check: "ReadMe_HowTo.docx" (under construction)
 
-License
+## License
 
 This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). Please see [LICENSE](./LICENSE) file for full details.
+
+## Written by
+[Wei Yan](http://bim-sim.org/wyan/index.html)
+Texas A&M University, 2016
