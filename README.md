@@ -1,2 +1,24 @@
 # co-design
 Collaborative design system integrating Autodesk Forge Viewer, Dynamo, Grasshopper, etc. through Flux
+
+The project is supported by Autodesk Forge Research Grant and Flux.io.
+
+The project samples and videos can be found in "Project Report V5.docx". Online samples can be found at:
+https://co-design.herokuapp.com
+
+The videos are also available here:
+
+1. The Viewer Extension sample for editing the building objects can be seen in the following video:
+http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=563965 
+
+2. The following video shows the integrated Autodesk Viewer, Flux, Dynamo, and Grasshopper in action:
+http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=564315 
+
+3. The following video demonstrates the integrated Autodesk Viewer, Flux, Dynamo, and Grasshopper, running on actual two computers:
+http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=564317
+
+4. A video demonstrating the running process of design optimization can be seen from the following link:
+http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=564452 
+
+
+To run the programs, check: "ReadMe_HowTo.docx" (under construction)
