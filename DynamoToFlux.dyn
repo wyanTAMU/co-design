@@ -1,0 +1,98 @@
+<Workspace Version="1.2.0.2690" X="-3314.43207288719" Y="111.94179440068" zoom="1.11197695276904" Name="Home" Description="" RunType="Automatic" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="Point" resolvedName="Autodesk.DesignScript.Geometry.Point" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Display.ByGeometryColor" resolvedName="Display.Display" assemblyName="Display.dll" />
+    <ClassMap partialName="Polygon2d" resolvedName="stuffer.Polygon2d" assemblyName="SpacePlanning.dll" />
+    <ClassMap partialName="Polygon" resolvedName="Autodesk.DesignScript.Geometry.Polygon" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Line" resolvedName="Autodesk.DesignScript.Geometry.Line" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Point2d.X" resolvedName="stuffer.Point2d" assemblyName="SpacePlanning.dll" />
+    <ClassMap partialName="Point2d" resolvedName="stuffer.Point2d" assemblyName="SpacePlanning.dll" />
+    <ClassMap partialName="List.create" resolvedName="DSCore.List" assemblyName="DSCoreNodes.dll" />
+    <ClassMap partialName="Math.Ceiling[(x / y) * z]" resolvedName="DSCore.Math" assemblyName="DSCoreNodes.dll" />
+    <ClassMap partialName="Math" resolvedName="DSCore.Math" assemblyName="DSCoreNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <Flux.Dynamo.NodeModels.ToFluxNodeModel guid="fc4674d0-f1f8-44d3-b7d3-eede30f8ab8c" type="Flux.Dynamo.NodeModels.ToFluxNodeModel" nickname="Send to Flux" x="3641.98257509473" y="-147.225817450303" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="False" />
+      <Key>405f08e52e2454c97f99e0d1d88e6b9d</Key>
+    </Flux.Dynamo.NodeModels.ToFluxNodeModel>
+    <Flux.Dynamo.NodeModels.FlowControlNodeModel guid="c4863569-4999-4f49-8e9b-ca4d4671ccf9" type="Flux.Dynamo.NodeModels.FlowControlNodeModel" nickname="Flow Control" x="3407.32208113785" y="-139.983566733112" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Mode>Constantly</Mode>
+    </Flux.Dynamo.NodeModels.FlowControlNodeModel>
+    <Flux.Dynamo.NodeModels.ProjectsNodeModel guid="e4ebc8fc-915e-436d-a008-a2d7e351a59e" type="Flux.Dynamo.NodeModels.ProjectsNodeModel" nickname="Flux Project" x="3089.05614610536" y="-87.2337086936166" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <ProjectId>aVoNpEDnDeR68njAR</ProjectId>
+    </Flux.Dynamo.NodeModels.ProjectsNodeModel>
+    <CoreNodeModels.Input.IntegerSlider guid="b42fa8e3-ae47-482d-bffb-36b0f76be396" type="CoreNodeModels.Input.IntegerSlider" nickname="Translate - Integer Slider" x="3038.76676192702" y="83.7524736485532" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.Int32>0</System.Int32>
+      <Range min="0" max="100" step="1" />
+    </CoreNodeModels.Input.IntegerSlider>
+    <Flux.Dynamo.NodeModels.ToFluxNodeModel guid="df791c70-8261-469b-b7ef-14bccf36758f" type="Flux.Dynamo.NodeModels.ToFluxNodeModel" nickname="Send to Flux" x="3648.77943343066" y="102.951986679656" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="False" />
+      <Key>4051e5d50860a0ea9e5d748a99064494</Key>
+    </Flux.Dynamo.NodeModels.ToFluxNodeModel>
+    <Flux.Dynamo.NodeModels.FlowControlNodeModel guid="eaa5402d-eac4-4fd3-9c38-145b08b52f2c" type="Flux.Dynamo.NodeModels.FlowControlNodeModel" nickname="Flow Control" x="3414.11893947378" y="110.194237396847" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Mode>Constantly</Mode>
+    </Flux.Dynamo.NodeModels.FlowControlNodeModel>
+    <CoreNodeModels.Input.DoubleSlider guid="20315b9f-cd6d-4579-9776-ce85a7921ea8" type="CoreNodeModels.Input.DoubleSlider" nickname="Scale - Number Slider" x="3037.30033908272" y="146.14580716764" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.Double>1</System.Double>
+      <Range min="1" max="2" step="0.1" />
+    </CoreNodeModels.Input.DoubleSlider>
+    <Flux.Dynamo.NodeModels.ToFluxNodeModel guid="294bbcd8-7b3e-46f7-be5c-f74bae162d4f" type="Flux.Dynamo.NodeModels.ToFluxNodeModel" nickname="Send to Flux" x="3650.23894929907" y="324.576674146027" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="False" />
+      <Key>40aee7b132551fb0caae086ca9685c6f</Key>
+    </Flux.Dynamo.NodeModels.ToFluxNodeModel>
+    <Flux.Dynamo.NodeModels.FlowControlNodeModel guid="fdb344b9-920a-41ec-822c-6f37a16cf661" type="Flux.Dynamo.NodeModels.FlowControlNodeModel" nickname="Flow Control" x="3415.57845534219" y="331.818924863217" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Mode>Constantly</Mode>
+    </Flux.Dynamo.NodeModels.FlowControlNodeModel>
+    <CoreNodeModels.Input.IntegerSlider guid="23c74188-f48d-4a1c-962d-c6a5bea1c2fb" type="CoreNodeModels.Input.IntegerSlider" nickname="Rotate - Integer Slider" x="3036.34901315683" y="207.568793238636" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.Int32>0</System.Int32>
+      <Range min="0" max="360" step="1" />
+    </CoreNodeModels.Input.IntegerSlider>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="c4863569-4999-4f49-8e9b-ca4d4671ccf9" start_index="0" end="fc4674d0-f1f8-44d3-b7d3-eede30f8ab8c" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="e4ebc8fc-915e-436d-a008-a2d7e351a59e" start_index="0" end="fc4674d0-f1f8-44d3-b7d3-eede30f8ab8c" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="e4ebc8fc-915e-436d-a008-a2d7e351a59e" start_index="0" end="df791c70-8261-469b-b7ef-14bccf36758f" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="e4ebc8fc-915e-436d-a008-a2d7e351a59e" start_index="0" end="294bbcd8-7b3e-46f7-be5c-f74bae162d4f" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="b42fa8e3-ae47-482d-bffb-36b0f76be396" start_index="0" end="fc4674d0-f1f8-44d3-b7d3-eede30f8ab8c" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="eaa5402d-eac4-4fd3-9c38-145b08b52f2c" start_index="0" end="df791c70-8261-469b-b7ef-14bccf36758f" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="20315b9f-cd6d-4579-9776-ce85a7921ea8" start_index="0" end="df791c70-8261-469b-b7ef-14bccf36758f" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="fdb344b9-920a-41ec-822c-6f37a16cf661" start_index="0" end="294bbcd8-7b3e-46f7-be5c-f74bae162d4f" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="23c74188-f48d-4a1c-962d-c6a5bea1c2fb" start_index="0" end="294bbcd8-7b3e-46f7-be5c-f74bae162d4f" end_index="2" portType="0" />
+  </Connectors>
+  <Notes>
+    <Dynamo.Graph.Notes.NoteModel guid="2dace5a0-c251-47f3-b071-73973fcd8b84" text="Web-based Parametric BIM: A Prototype&#xD;&#xA;&#xD;&#xA;Sample 1. The sample demonstrate that Dynamo can be a visual programming tool to update data on the Web (through Flux)&#xD;&#xA;&#xD;&#xA;The Flux data (transformation values) will automatically update a  BIM model displayed in Autodesk Forge Viewer, through a Viewer API program (in Javascript). &#xD;&#xA;&#xD;&#xA;In a simular case, Grasshopper can be used in place of Dynamo to make the demonstration. This means that different users using different tools can work on the same model on the Web collaboratively.&#xD;&#xA;&#xD;&#xA;Wei Yan, Ph.D. &#xD;&#xA;Texas A&amp;M University&#xD;&#xA;10/31/2016" x="3038.17208992311" y="-421.929367519012" />
+  </Notes>
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="7e3cb9c7-2fd5-45b3-81e1-d596c3934390" annotationText="Export to Flux - translate" left="3397.32208113785" top="-193.225817450303" width="467.16049395688" height="191" fontSize="30" InitialTop="-147.225817450303" InitialHeight="234.54481011608" TextblockHeight="36" backgrouund="#FF848484">
+      <Models ModelGuid="fc4674d0-f1f8-44d3-b7d3-eede30f8ab8c" />
+      <Models ModelGuid="c4863569-4999-4f49-8e9b-ca4d4671ccf9" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="072337dc-5f3d-42f8-bbff-8ceb9c9fac8b" annotationText="Export to Flux - scale" left="3404.11893947378" top="56.951986679656" width="467.16049395688" height="191" fontSize="30" InitialTop="102.951986679656" InitialHeight="175" TextblockHeight="36" backgrouund="#FF848484">
+      <Models ModelGuid="df791c70-8261-469b-b7ef-14bccf36758f" />
+      <Models ModelGuid="eaa5402d-eac4-4fd3-9c38-145b08b52f2c" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="5772bcb1-1a0d-4779-a71b-e54b7f6a4675" annotationText="Flux Project" left="3079.05614610536" top="-117.233708693617" width="225" height="123" fontSize="14" InitialTop="-87.2337086936166" InitialHeight="123" TextblockHeight="20" backgrouund="#FFC1D676">
+      <Models ModelGuid="e4ebc8fc-915e-436d-a008-a2d7e351a59e" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="bd275bd7-1423-4424-b7a6-f3fe9fc6cd1e" annotationText="Export to Flux - rotate" left="3405.57845534219" top="278.576674146027" width="467.16049395688" height="191" fontSize="30" InitialTop="324.576674146027" InitialHeight="175" TextblockHeight="36" backgrouund="#FF848484">
+      <Models ModelGuid="294bbcd8-7b3e-46f7-be5c-f74bae162d4f" />
+      <Models ModelGuid="fdb344b9-920a-41ec-822c-6f37a16cf661" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="2960bbe4-ec69-4124-a44f-3a8d2b69b1db" annotationText="Transformations" left="3026.34901315683" top="53.7524736485532" width="323.41774877019" height="221.816319590083" fontSize="14" InitialTop="83.7524736485532" InitialHeight="229.687752275532" TextblockHeight="20" backgrouund="#FFC1D676">
+      <Models ModelGuid="b42fa8e3-ae47-482d-bffb-36b0f76be396" />
+      <Models ModelGuid="20315b9f-cd6d-4579-9776-ce85a7921ea8" />
+      <Models ModelGuid="23c74188-f48d-4a1c-962d-c6a5bea1c2fb" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-240.034194946289" eyeY="547.203735351563" eyeZ="-47.9139060974121" lookX="84.6411895751953" lookY="-542.338745117188" lookZ="-87.0708618164063" upX="0.631725132465363" upY="0.422618716955185" upZ="-0.649858236312866" />
+  </Cameras>
+</Workspace>

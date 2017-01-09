@@ -1,0 +1,27 @@
+{
+  "name": "Visual Programming with Forge Viewer",
+  "description": "A basic node.js server/client demo for Visual Programming with Forge Viewer",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": ">= 4.12.3",
+    "request": ">= 2.55.0",
+    "serve-favicon": ">= 2.2.0",
+    "view-and-data": "^1.0.7"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "contributors": [
+    "Wei Yan <wyan@tamu.edu>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://co-design.herokuapp.com/"
+  }
+}
