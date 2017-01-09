@@ -1,4 +1,6 @@
-# Co-Design: Collaborative design system integrating Autodesk Forge Viewer, Dynamo, Grasshopper, etc. through Flux
+# Co-Design
+
+Collaborative design system integrating Autodesk Forge Viewer, Dynamo, and Grasshopper through Flux
 
 ## Description
 
