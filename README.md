@@ -9,7 +9,7 @@ The system allows users to collaboratively do parametric design using visual pro
 The project samples and videos can be found in ["Project Report V5.docx"](./Project Report V5.docx). Online samples can be found at:
 https://co-design.herokuapp.com
 
-![Alt text](./images/two computers_v2.jpg?raw=true "Title")
+![Two Computers sample](./images/two computers_v2.jpg?raw=true "Two Computers")
 
 The videos are also available here:
 
