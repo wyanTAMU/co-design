@@ -32,5 +32,5 @@ To run the programs, check: ["Usage.docx"](./Usage.docx) (under construction)
 This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). Please see [LICENSE](./LICENSE) file for full details.
 
 ## Written by
-[Wei Yan](http://bim-sim.org/wyan/index.html)
+[Wei Yan](http://bim-sim.org/wyan/index.html), 
 Texas A&M University, 2016
