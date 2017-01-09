@@ -22,3 +22,7 @@ http://mediamatrix.tamu.edu/download_published_file.php?published_file_id=564452
 
 
 To run the programs, check: "ReadMe_HowTo.docx" (under construction)
+
+License
+
+This project is licensed under the terms of the [MIT License[(https://opensource.org/licenses/MIT). Please see [LICENSE](./LICENSE) file for full details.
