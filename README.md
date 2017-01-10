@@ -1,6 +1,6 @@
 # Co-Parametric Design
 
-Collaborative design system integrating Autodesk Forge Viewer, Dynamo, and Grasshopper through Flux
+This is an example project integrating Autodesk Forge Viewer, Dynamo, and Grasshopper through Flux for demonstrating the idea of collaborative parametric design.
 
 ## Description
 
