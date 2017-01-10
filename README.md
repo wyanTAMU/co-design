@@ -1,4 +1,4 @@
-# Co-Design
+# Co-Parametric Design
 
 Collaborative design system integrating Autodesk Forge Viewer, Dynamo, and Grasshopper through Flux
 
